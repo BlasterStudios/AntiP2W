@@ -11,3 +11,28 @@
     color: #e6e7e8;
   }
 }
+
+.btn{
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid red;
+  transition: background-color 90ms;
+}
+.btn:hover {
+  background-color: lightcoral;
+  border: 2px solid lightcoral;
+}
+.btn2{
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid red;
+  transition: background-color 90ms;
+}
+.btn2:hover {
+  background-color: lightcoral;
+  border: 2px solid lightcoral;
+}
