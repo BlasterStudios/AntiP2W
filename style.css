@@ -62,3 +62,10 @@ body, html {
   background-color: rgb(247, 70, 70);
   border: 2px solid rgb(247, 70, 70);
 }
+
+.spam{
+  background-color: #1c1c1c;
+  border: 1px solid white;
+  color: white;
+  width: 400px;
+}
