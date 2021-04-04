@@ -1,0 +1,65 @@
+@media (min-width: 321px) {
+  body, html {
+      font: 400 16px/1.5 Segoe UI,system-ui,-apple-system,sans-serif;
+}}
+@media (min-width: 241px) {
+body, html {
+  font: 400 14px/1.5 Segoe UI,system-ui,-apple-system,sans-serif;
+}}
+  
+::-webkit-scrollbar-thumb {
+  background: #242424;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #2f333a;
+  border-radius: 8px;
+}
+  
+::-moz-selection {
+  color: grey;
+  background: #2f333a;
+}
+::selection {
+  color: grey;
+  background: #2f333a;
+}
+
+.btn{
+  width: 120px;
+  height: 45px;
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid red;
+  transition: background-color 90ms;
+}
+.btn:hover {
+  background-color: rgb(247, 70, 70);
+  border: 2px solid rgb(247, 70, 70);
+}
+.btn2{
+  width: 120px;
+  height: 45px;
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid red;
+  transition: background-color 90ms;
+}
+.btn2:hover {
+  background-color: rgb(247, 70, 70);
+  border: 2px solid rgb(247, 70, 70);
+}
+
+.spam{
+  background-color: #1c1c1c;
+  border: 1px solid white;
+  color: white;
+  width: 400px;
+}
